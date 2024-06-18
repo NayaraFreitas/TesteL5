@@ -1,27 +1,55 @@
-# Dashboard
+# Prova Técnica - L5.networks
+- Este repositório contem a solução da prova técnica da empresa L5.networks.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+## 📝 Sobre a prova
+Desenvolver uma SPA(Single Page Application), utilizando o framework <a href="https://angular.dev/">Angular</a> e a api <a href="https://fakeapi.platzi.com/en/about/introduction/">Platzi Fake Store API</a>, uma aplicação em modelo de dashboard.
+### 🧾Requisitos feitos
+[x]Cabeçalho Fixo <br>
+[x]Menu Lateral Fixo <br>
+[x]Espaço do conteudo <br>
+[x]Requisição da API <br>
+[ ] Listagem dos produtos <br>
+[ ] Listagem das categorias
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🖥 Tecnologias Usadas
+- Angular 17+
+- Bootstrap
+- Scss
 
-## Code scaffolding
+## 💻 Como rodar o projeto
+Para executar a aplicação localmente
+Obs:Para que possa aplicação rodar certifique-se que o node esteja instaldo em sua máquina e que esteja em sua ultima versão.Caso não esteja por favor instale!
+<a href="https://nodejs.org/en">Node</a>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1- Clone o repositório:
+```
+git clone http:/github.com/NayaraFreitas/TesteL5.git
+cd Dashboard
+```
+ou
 
-## Build
+2- Download Zip:
+Extraia todos os arquivos antes de incializar
+Depois abra em seu editor de prefrÊncia
+```
+cd Dashboard
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3- Instale as dependencias
+```
+npm install
+ou
+npm i
+```
+4- Inicie a aplicação
+```
+npm start
+ou
+ng serve
+```
+5- Abrir a aplicação(click)
+```
+http://localhost:4200/
+```
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
