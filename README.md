@@ -18,8 +18,8 @@ Desenvolver uma SPA(Single Page Application), utilizando o framework <a href="ht
 - Scss
 
 ## 💻 Como rodar o projeto
-Para executar a aplicação localmente
-Obs:Para que possa aplicação rodar certifique-se que o node esteja instaldo em sua máquina e que esteja em sua ultima versão.Caso não esteja por favor instale!
+Para executar a aplicação localmente <br>
+Obs:Para que a aplicação possa rodar certifique-se que o node esteja instaldo em sua máquina e que esteja em sua ultima versão.Caso não esteja por favor instale!
 <a href="https://nodejs.org/en">Node</a>
 
 1- Clone o repositório:
