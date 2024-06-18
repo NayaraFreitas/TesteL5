@@ -1,0 +1,32 @@
+.side-nav{
+  height:auto;
+  ul{
+    margin-top: 60px;
+    hr{
+      width: auto;
+    }
+    li{
+      padding: 5px;
+      color: #fff;
+      a{
+        font-size: 20px;
+        i{
+          font-size: 25px;
+          color: #fff;
+        }
+        i:hover{
+          color: dimgrey;
+        }
+        span{
+          @media screen and (max-width: 576px) {
+            display: none;
+          }
+
+          @media screen and (max-width: 768px) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
