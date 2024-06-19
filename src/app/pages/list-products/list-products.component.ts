@@ -12,12 +12,14 @@ import { FakeStoreService } from '../../service/fake-store.service';
 export class ListProductsComponent {
   public products?:Products | any
 
+
   constructor(private service:FakeStoreService){
   }
 
   ngOnInit(): void {
     this.getProduct('')
   }
+
   getProduct(searchTitle:string){
     this.service.getProduct(searchTitle).subscribe(
       {
@@ -32,7 +34,7 @@ export class ListProductsComponent {
           console.log(res);
           // console.log(this.products)
         },
-        error: (err) => console.log('Not F')
+        error: (err) => console.log('Not Found')
       })
   }
 
