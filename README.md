@@ -33,7 +33,7 @@ ou
 Extraia todos os arquivos antes de incializar
 Depois abra em seu editor de prefrÊncia
 ```
-cd Dashboard
+cd TesteL5-main
 ```
 
 3- Instale as dependencias
